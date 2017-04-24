@@ -483,5 +483,5 @@ if filereadable(expand("~/.config/nvim/local_init.vim"))
   source ~/.config/nvim/local_init.vim
 endif
 
-"" Hightlight column at 80
-set cc=80
+"" Highlight column at 80 and 120
+set cc=80,120
