@@ -104,6 +104,9 @@ Plug 'thoughtbot/vim-rspec'
 Plug 'ecomba/vim-ruby-refactoring'
 Plug 'vim-scripts/matchit.zip'
 
+" GraphQL
+Plug 'jparise/vim-graphql'
+
 "*****************************************************************************
 "*****************************************************************************
 
