@@ -31,6 +31,8 @@ Plug 'bronson/vim-trailing-whitespace'
 Plug 'Raimondi/delimitMate'
 Plug 'avelino/vim-bootstrap-updater'
 Plug 'sheerun/vim-polyglot'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 if isdirectory('/usr/local/opt/fzf')
   Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
 else
@@ -187,7 +189,6 @@ if has("gui_running")
 else
   let g:CSApprox_loaded = 1
 endif
-
 
 "" Status bar
 set laststatus=2
@@ -485,3 +486,5 @@ endif
 
 "" Highlight column at 80 and 120
 set cc=80,120
+
+set mouse=c
